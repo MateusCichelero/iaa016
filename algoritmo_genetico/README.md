@@ -6,6 +6,8 @@
 
 # PROGRAMA PARA EXECUÇÃO DO PROBLEMA CAIXEIRO VIAJANTE UTILIZANDO ALGORITMOS GENÉTICOS 
 
+![](https://github.com/MateusCichelero/iaa016/blob/main/algoritmo_genetico/evolucao_percurso.gif)
+
 
 ## COMO RODAR:
 - Crie e entre em um ambiente python. Exemplo: 
