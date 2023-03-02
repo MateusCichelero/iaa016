@@ -4,28 +4,29 @@
 ## COMO RODAR:
 - Crie e entre em um ambiente python. Exemplo: 
 ```console
-conda create --name caixeiro python=3.10)
+conda create --name caixeiro python=3.10
 ```
 
 - Instale as bibliotecas necessárias:
-    - import random
-    - import matplotlib.pyplot as plt
-    - import math
+    - random
+    - matplotlib.pyplot as plt
+    - math
     - from random import choices
-    - import numpy
-    - import argparse
+    - numpy
+    - argparse
+    
 - Execute o comando: 
 ```console
 python caixeiro_viajante.py
 ```
 
 - É possível alterar parâmetros do algoritmo e da simulação. Seguem os parâmetros:
-    -n_cidades: Numero de cidades no mapa. Default: 100
-    -n_pop: Numero de percursos na populacao. Default: 100
-    -tx_cruzamento: Taxa de cruzamento. Ex: 60 para 60%. Default: 60
-    -tx_mutacao: Taxa de mutacao. Ex: 5 para 5%. Default: 5
-    -n_geracoes: Numero de geracoes para simulacao. Default: 8000
-    -n_selecao: Numero de individuos selecionados por ranking. Default: 50
+    - -n_cidades: Numero de cidades no mapa. Default: 100
+    - -n_pop: Numero de percursos na populacao. Default: 100
+    - -tx_cruzamento: Taxa de cruzamento. Ex: 60 para 60%. Default: 60
+    - -tx_mutacao: Taxa de mutacao. Ex: 5 para 5%. Default: 5
+    - -n_geracoes: Numero de geracoes para simulacao. Default: 8000
+    - -n_selecao: Numero de individuos selecionados por ranking. Default: 50
 
 
 - Exemplo de execução alterando-se parâmetros default - escolhendo 1000 gerações na simulação:
