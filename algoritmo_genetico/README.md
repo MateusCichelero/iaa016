@@ -1,3 +1,9 @@
+## IAA016 - Tópicos em IA
+## Aluno: Mateus Cichelero da Silva
+
+### Exercício - Caixeiro Viajante com Algoritmos Genéticos
+#### Março 2023
+
 # PROGRAMA PARA EXECUÇÃO DO PROBLEMA CAIXEIRO VIAJANTE UTILIZANDO ALGORITMOS GENÉTICOS 
 
 
@@ -14,7 +20,7 @@ conda create --name caixeiro python=3.10
     - from random import choices
     - numpy
     - argparse
-    
+
 - Execute o comando: 
 ```console
 python caixeiro_viajante.py

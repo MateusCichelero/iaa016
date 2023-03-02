@@ -1,3 +1,9 @@
+# IAA016 - Tópicos em IA
+# Aluno: Mateus Cichelero da Silva
+
+## Exercício - Caixeiro Viajante com Algoritmos Genéticos
+#Março 2023
+
 import random
 import matplotlib.pyplot as plt
 import math
