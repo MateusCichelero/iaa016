@@ -202,7 +202,7 @@ def main(n_cidades, n_pop, tx_cruzamento, tx_mutacao, n_geracoes, n_selecao):
         ##mutação
         pop_geracao = mutacao(pop_geracao, tx_mutacao = tx_mutacao, n_pop=n_pop)
 
-        if geracoes%1000 == 0:
+        if geracoes%250 == 0:
         ##avaliação
             rank_fit = avaliacao(pop_geracao, cidades)
             max_value = max(rank_fit)
